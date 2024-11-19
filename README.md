@@ -6,9 +6,9 @@ Este repositorio lo cree para subir mi tarea de Visión por Computadora, en esto
 
 Para obtener los puntos clave de cada objeto se usa lo siguiente:
 
-``
-python train.py --number_object 1   
-``
+```bash
+python train.py --number_object 1
+```
 
 El argumetno `--number_object` recibe el numero de objeto a entrenar, para esto hay que tener la siguiente estructura dentro de la carpeta de coil-100 del objeto que se quiere trabajar, quedando de la siguiente manera:
 
@@ -34,9 +34,9 @@ De cualquier manera se proporciona un ejemplo en el repositorio.
 
 Para comparar los dos objetos de interes, se usa el siguiente comando:
 
-``
+```bash
 python similarity.py --object_one 1 --object_two 1 --object_one_angle 355 --object_two_angle 10
-``
+```
 
 El argumento `--object_one` es el numero del objeto a comparar, igualmente para `--object_two`, es necesario darles un valor.
 
